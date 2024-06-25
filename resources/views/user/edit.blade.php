@@ -1,4 +1,4 @@
 @extends('layouts.backend.backend')
 @section('content')
-    Ini Adalah Content
+edit
 @endsection

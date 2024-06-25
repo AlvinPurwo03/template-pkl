@@ -14,7 +14,8 @@
                                 <div class="col">
                                     <div class="mb-2">
                                         <label for="">Name Product</label>
-                                        <input type="text" class="form-control @error('name_product') is-invalid @enderror"
+                                        <input type="text"
+                                            class="form-control @error('name_product') is-invalid @enderror"
                                             name="name_product">
                                         @error('name_product')
                                             <span class="invalid-feedback" role="alert">
@@ -44,7 +45,8 @@
                                     </div>
                                     <div class="mb-2">
                                         <label for="">Description</label>
-                                        <input type="text" class="form-control @error('description') is-invalid @enderror"
+                                        <input type="text"
+                                            class="form-control @error('description') is-invalid @enderror"
                                             name="description">
                                         @error('description')
                                             <span class="invalid-feedback" role="alert">
