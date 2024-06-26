@@ -1,4 +1,4 @@
 @extends('layouts.backend.backend')
 @section('content')
-show
+show {{ $user->name }}
 @endsection
